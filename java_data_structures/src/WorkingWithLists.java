@@ -8,7 +8,9 @@ public class WorkingWithLists {
         girlFriends.add("Lisah");
         girlFriends.add("Yeukai");
         girlFriends.add("Audrey");
-        System.out.println(girlFriends.size());
+        System.out.println(girlFriends.contains("Patie"));
+        System.out.println(girlFriends.contains("Tomaidah"));
+        System.out.println(girlFriends.contains("Simbisanai"));
 
         for(String gfs: girlFriends){
             System.out.println(gfs);

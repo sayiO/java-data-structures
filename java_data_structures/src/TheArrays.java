@@ -13,5 +13,16 @@ public class TheArrays {
         //printing array contents
         System.out.println(Arrays.toString(colors));
 
+        //looping through arrays
+
+        for(int i =0; i<colors.length; i++){
+            System.out.println(colors[i]);
+
+        }
+        //enhanced for loop
+        for(int num: numbers){
+            System.out.print(num + " ");
+        }
+
     }
 }

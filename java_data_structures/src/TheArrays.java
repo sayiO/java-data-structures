@@ -3,7 +3,7 @@ import java.util.Arrays;
 public class TheArrays {
     public static void main(String[] args) {
         //array creation
-        int []numbers = new int[5];
+       /* int []numbers = new int[5];
         numbers[0] = 34;
         numbers[1] = 12;
         numbers[2] = 35;
@@ -23,6 +23,15 @@ public class TheArrays {
         for(int num: numbers){
             System.out.print(num + " ");
         }
+        */
+        //2d arrays
+        char[][] board = new char[3][3];
+        for(int i = 0; i<3; i++){
+            for(int j= 0; j<3;j++){
+                board[i][j] = '*';
+            }
+        }
+        System.out.println(Arrays.deepToString(board));
 
     }
 }

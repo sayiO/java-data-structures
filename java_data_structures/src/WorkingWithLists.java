@@ -2,7 +2,7 @@ import java.util.*;
 
 public class WorkingWithLists {
     public static void main(String[] args) {
-        List gfs = new ArrayList();
+        List <String>gfs = new ArrayList<>();
         gfs.add("Yeukai");
         gfs.add("Tomaidah");
         gfs.add("Simbie");
@@ -17,7 +17,7 @@ public class WorkingWithLists {
         System.out.println(gfs.get(0));
         System.out.println("The list size is " + gfs.size());
         //gfs.remove(2);
-        gfs.add(new Integer(2022));
+        //gfs.add(new Integer(2022));
 
 //iterate list using a new for loop
 

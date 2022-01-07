@@ -22,10 +22,29 @@ public class WorkingWithDeque {
         System.out.println(deque1);
 
 
-        System.out.println(deque1.peek());
+
+        /*System.out.println(deque1.peek());
         System.out.println(deque1.peekFirst());
         System.out.println(deque1.peekLast());
+       */
+        System.out.println(deque1.pop());
+        System.out.println(deque1);
 
+        //iterating the collection using iterator
+
+        Iterator<String> dequeValue = deque1.iterator();
+        while(dequeValue.hasNext()){
+            System.out.println(dequeValue.next());
+
+        }
+
+        for(String element:deque1){
+            System.out.println("fav programming language is " + element);
+
+        }
+        deque1.stream().forEach((element)->{
+            System.out.println("i am using a stream for " + element);
+        });
 
 
     }

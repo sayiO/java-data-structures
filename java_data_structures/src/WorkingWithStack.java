@@ -10,9 +10,9 @@ public class WorkingWithStack {
         st1.push("sauka");
         st1.push("oniasbee");
 
-        st1.pop();
-        System.out.println(st1);
-        System.out.println(st1.peek());
+        //st1.pop();
+        //System.out.println(st1);
+       // System.out.println(st1.peek());
         Iterator iterator = st1.iterator();
         while(iterator.hasNext()){
             System.out.println(iterator.next());

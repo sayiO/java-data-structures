@@ -5,7 +5,7 @@ public class WorkingWithStack {
         st1.push("onias");
         st1.push("sayi");
         st1.push(23);
-        st1.push()
+        st1.push(65);
 
     }
 }
